@@ -1,67 +1,41 @@
 # House Price Prediction Using Machine Learning
 
-## Project Overview
+## 📌 Project Overview
 
-This project focuses on predicting house prices using machine learning regression algorithms.
+This project focuses on predicting house prices using Machine Learning regression techniques.
 
-The project follows a complete machine learning workflow, including data exploration, exploratory data analysis, feature engineering, preprocessing, model training, model evaluation, and model comparison.
+The project implements an end-to-end Machine Learning workflow starting from data loading and exploratory data analysis to data cleaning, feature engineering, feature selection, preprocessing, model training, evaluation, and model comparison.
 
-## Objective
+The goal is to understand how different property-related features can be used to predict house prices and compare the performance of multiple regression algorithms.
 
-The objective of this project is to predict house prices using property-related features such as:
+---
 
-- Number of bedrooms
-- Number of bathrooms
-- Living area
-- Lot area
-- Floors
-- Waterfront availability
-- View
-- House condition
-- Year built
-- Year renovated
-- City
-- State/ZIP information
+## 🎯 Project Objective
 
-## Technologies Used
+The main objective of this project is to build Machine Learning regression models that can predict house prices based on property characteristics.
 
-- Python
-- Pandas
-- NumPy
-- Matplotlib
-- Seaborn
-- Scikit-learn
-- Jupyter Notebook
-
-## Machine Learning Models
-
-The following regression models were implemented and compared:
-
-1. Linear Regression
-2. Decision Tree Regressor
-3. Random Forest Regressor
-4. Gradient Boosting Regressor
-
-## Project Workflow
+The project covers the complete Machine Learning workflow:
 
 ```text
 Data Loading
      ↓
-Data Understanding
+Data Inspection
      ↓
 Exploratory Data Analysis
      ↓
-Feature Selection
+Data Cleaning
      ↓
 Feature Engineering
      ↓
-Categorical Encoding
+Feature Selection
      ↓
 Train-Test Split
      ↓
-Feature Scaling
+Data Preprocessing
      ↓
 Model Training
+     ↓
+Prediction
      ↓
 Model Evaluation
      ↓
